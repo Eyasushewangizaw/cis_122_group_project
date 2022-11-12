@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Navigation
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 45
+  controlID: 104
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -761,9 +761,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -44.94497, y: -6.2822676, z: -59.095673}
+    m_Target: {x: -34.2603, y: -5.118106, z: -63.596848}
     speed: 2
-    m_Value: {x: -44.94497, y: -6.2822676, z: -59.095673}
+    m_Value: {x: -34.2603, y: -5.118106, z: -63.596848}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -809,13 +809,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.011071162, y: 0.9794187, z: -0.055887323, w: -0.19398113}
+    m_Target: {x: -0.010955299, y: 0.97544587, z: -0.04979071, w: -0.21457425}
     speed: 2
-    m_Value: {x: -0.011070412, y: 0.97935224, z: -0.05588353, w: -0.19396797}
+    m_Value: {x: -0.010954555, y: 0.9753796, z: -0.049787328, w: -0.21455967}
   m_Size:
-    m_Target: 50.86789
+    m_Target: 52.590473
     speed: 2
-    m_Value: 50.86789
+    m_Value: 50.325813
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -870,10 +870,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 36fbffff
+      scrollPos: {x: 0, y: 1449.2}
+      m_SelectedIDs: 1e5a0000a05a0000
+      m_LastClickedID: 23200
+      m_ExpandedIDs: 96dbffff36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -966,36 +966,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Pistol
+    - Assets/ToonSoldiers_demo/models
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 46
   m_LastFolders:
-  - Assets/Pistol
+  - Assets/ToonSoldiers_demo/models
   m_LastFoldersGridSize: 46
   m_LastProjectPath: C:\Users\15073\OneDrive\Documents\GitHub\cis_122_group_project\CIS_122_GROUP_PROJECT
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 58730000
-    m_LastClickedID: 29528
-    m_ExpandedIDs: 00000000c86600006073000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 171.00012}
+    m_SelectedIDs: 8e670000
+    m_LastClickedID: 26510
+    m_ExpandedIDs: 00000000c86600007a6700008e6700009667000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: ToonSoldiers_demo
+      m_OriginalName: ToonSoldiers_demo
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 26490
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -1152,11 +1152,11 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: 459
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastInspectedObjectInstanceID: -9322
+  m_LastVerticalScrollValue: 73.00001
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
