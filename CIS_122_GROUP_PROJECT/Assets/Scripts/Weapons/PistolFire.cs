@@ -8,6 +8,7 @@ public class PistolFire : MonoBehaviour
     public bool isFiring = false;
     public GameObject muzzleflash;
     public AudioSource pistolShot;
+  
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
@@ -21,7 +22,9 @@ public class PistolFire : MonoBehaviour
     }
     IEnumerator FireThePistol()
     {
-        isFiring = true;
+      
+
+
         blackPistol.GetComponent<Animator>().Play("FirePistol");
         pistolShot.Play();
         muzzleflash.SetActive(true);
